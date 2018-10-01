@@ -1,0 +1,17 @@
+{
+  "name": "databases",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --watch --reporter min"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "node-dir": "^0.1.17"
+  }
+}

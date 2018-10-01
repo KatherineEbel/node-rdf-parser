@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "mocha --watch --reporter min"
+    "test": "mocha",
+    "test:watch": "mocha --watch --reporter min",
+    "test:debug": "node --inspect node_modules/mocha/bin/_mocha --watch --no-timeouts"
   },
   "devDependencies": {
     "chai": "^4.2.0",
